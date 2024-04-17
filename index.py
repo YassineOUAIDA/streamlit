@@ -2,7 +2,6 @@ import streamlit as st
 AUTHOR = 'OUAIDA YASSINE'
 import pandas as pd
 import numpy as np
-import cv2
 
 st.sidebar.write('Welcome to this sidebar')
 
