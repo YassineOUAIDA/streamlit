@@ -3,8 +3,8 @@ AUTHOR = 'OUAIDA YASSINE'
 import pandas as pd
 import numpy as np
 
-html("""<script async src='https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-9450187741597742'
-     crossorigin='anonymous'></script>""")
+html("<script async src='https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-9450187741597742'
+     crossorigin='anonymous'></script>")
 
 
 st.sidebar.write('Welcome to this sidebar')
