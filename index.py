@@ -3,8 +3,8 @@ AUTHOR = 'OUAIDA YASSINE'
 import pandas as pd
 import numpy as np
 
-html_string = "<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-9450187741597742"
-     crossorigin="anonymous"></script>"
+html_string = "<script async src='https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-9450187741597742'
+     crossorigin='anonymous'></script>"
 
 st.markdown(html_string, unsafe_allow_html=True)
 
