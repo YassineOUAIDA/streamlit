@@ -3,17 +3,8 @@ AUTHOR = 'OUAIDA YASSINE'
 import pandas as pd
 import numpy as np
 
-my_js = """
-alert("Hola mundo");
-"""
-
-# Wrapt the javascript as html code
-my_html = f"""<script async src='https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-9450187741597742'
-     crossorigin='anonymous'>{my_js}</script>"""
-
-# Execute your app
-st.title("Javascript example")
-html(my_html)
+html("""<script async src='https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-9450187741597742'
+     crossorigin='anonymous'></script>""")
 
 
 st.sidebar.write('Welcome to this sidebar')
